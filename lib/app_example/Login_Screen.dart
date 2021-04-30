@@ -69,7 +69,7 @@ class _State extends State<LoginPage> {
                     child: RaisedButton(
                       textColor: Colors.white,
                       color: Colors.deepPurpleAccent,
-                      child: Text('Kaydol'),
+                      child: Text('Giriş Yap'),
                       onPressed: () {
                         Navigator.push(context,
                         MaterialPageRoute(builder: (context)=> FilmBilgiTesti()
